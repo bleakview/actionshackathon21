@@ -63,7 +63,7 @@ jobs:
           with:
             time: 10s           
         - name: success          
-          run: python actionhelper.py dial_120
+          run: python actionhelper.py dial_145
           env:
            AMQP_URL: ${{ secrets.AMQP_URL }}
            
